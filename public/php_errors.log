@@ -1,0 +1,1891 @@
+[19-Mar-2014 11:51:00 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\phalcon-tut\public\index.php:24
+Stack trace:
+#0 [internal function]: PDO->__construct('mysql:host=loca...', 'root', 'secret', Array)
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->connect(Array)
+#2 C:\localhost\phalcon-tut\public\index.php(24): Phalcon\Db\Adapter\Pdo->__construct(Array)
+#3 [internal function]: {closure}()
+#4 [internal function]: Phalcon\DI\Service->resolve(NULL, Object(Phalcon\DI\FactoryDefault))
+#5 [internal function]: Phalcon\DI->get('db', NULL)
+#6 [internal function]: Phalcon\DI->getShared('db')
+#7 [internal function]: Phalcon\Mvc\Model\Manager->getWriteConnection(Object(Users))
+#8 [internal function]: Phalcon\Mvc\Model->getWriteConnection()
+#9 C:\localhost\phalcon-tut\app\controllers\SignupController.php(23): Phalcon\Mvc\Model->save()
+#10 [internal function]: SignupController->registerAction()
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 C:\localhost\phalcon-tut\public\index.php(37): Pha in C:\localhost\phalcon-tut\public\index.php on line 24
+[19-Mar-2014 12:07:40 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 30
+[19-Mar-2014 12:17:10 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 31
+[19-Mar-2014 12:17:21 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 31
+[19-Mar-2014 12:17:27 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 31
+[19-Mar-2014 12:18:14 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 23
+[19-Mar-2014 12:22:39 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 23
+[19-Mar-2014 12:24:54 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 23
+[19-Mar-2014 12:28:00 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 25
+[19-Mar-2014 13:35:07 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 26
+[19-Mar-2014 13:35:35 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 26
+[19-Mar-2014 13:36:18 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 26
+[19-Mar-2014 13:44:20 Africa/Johannesburg] PHP Fatal error:  Call to a member function connect() on a non-object in C:\localhost\phalcon-tut\public\index.php on line 28
+[19-Mar-2014 13:44:35 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\phalcon-tut\public\index.php on line 65
+[19-Mar-2014 13:55:18 Africa/Johannesburg] PHP Fatal error:  Class 'Phalcon\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 13:55:34 Africa/Johannesburg] PHP Fatal error:  Class 'Phalcon\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 13:55:45 Africa/Johannesburg] PHP Fatal error:  Cannot instantiate abstract class Phalcon\Db\Adapter\Pdo in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 13:56:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\public\index.php:62
+Stack trace:
+#0 [internal function]: PDO->__construct('mysql:host=TYGS...', 'test', 'test', Array)
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(62): Phalcon\Db\Adapter\Pdo->__construct(Array)
+#3 [internal function]: {closure}()
+#4 [internal function]: Phalcon\DI\Service->resolve(NULL, Object(Phalcon\DI\FactoryDefault))
+#5 [internal function]: Phalcon\DI->get('db', NULL)
+#6 [internal function]: Phalcon\DI->getShared('db')
+#7 [internal function]: Phalcon\Mvc\Model\Manager->getWriteConnection(Object(Users))
+#8 [internal function]: Phalcon\Mvc\Model->getWriteConnection()
+#9 C:\localhost\tutorial\app\controllers\SignupController.php(23): Phalcon\Mvc\Model->save()
+#10 [internal function]: SignupController->registerAction()
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 C:\localhost\tutorial\public\index.php(82): Phalcon\Mvc\Appli in C:\localhost\tutorial\public\index.php on line 62
+[19-Mar-2014 13:56:35 Africa/Johannesburg] PHP Fatal error:  Class 'Phalcon\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 13:57:00 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 13:57:52 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 13:57:53 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 13:59:28 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 13:59:29 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 13:59:33 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 13:59:34 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:00:07 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:00:08 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:00:41 Africa/Johannesburg] PHP Fatal error:  Call to a member function connect() on a non-object in C:\localhost\tutorial\public\index.php on line 28
+[19-Mar-2014 14:00:42 Africa/Johannesburg] PHP Fatal error:  Call to a member function connect() on a non-object in C:\localhost\tutorial\public\index.php on line 28
+[19-Mar-2014 14:00:55 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 14:01:32 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 14:02:05 Africa/Johannesburg] PHP Fatal error:  Class 'Phalcon\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 14:02:19 Africa/Johannesburg] PHP Fatal error:  Class 'Phalcon\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 14:02:26 Africa/Johannesburg] PHP Fatal error:  Class 'Phalcon\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 14:02:36 Africa/Johannesburg] PHP Fatal error:  Class 'Phalcon\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 14:03:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\public\index.php:62
+Stack trace:
+#0 [internal function]: PDO->__construct('mysql:host=TYGS...', 'test', 'test', Array)
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(62): Phalcon\Db\Adapter\Pdo->__construct(Array)
+#3 [internal function]: {closure}()
+#4 [internal function]: Phalcon\DI\Service->resolve(NULL, Object(Phalcon\DI\FactoryDefault))
+#5 [internal function]: Phalcon\DI->get('db', NULL)
+#6 [internal function]: Phalcon\DI->getShared('db')
+#7 [internal function]: Phalcon\Mvc\Model\Manager->getWriteConnection(Object(Users))
+#8 [internal function]: Phalcon\Mvc\Model->getWriteConnection()
+#9 C:\localhost\tutorial\app\controllers\SignupController.php(23): Phalcon\Mvc\Model->save()
+#10 [internal function]: SignupController->registerAction()
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 C:\localhost\tutorial\public\index.php(82): Phalcon\Mvc\Appli in C:\localhost\tutorial\public\index.php on line 62
+[19-Mar-2014 14:05:03 Africa/Johannesburg] PHP Fatal error:  Class 'Phalcon\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 56
+[19-Mar-2014 14:06:20 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:22 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:25 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:25 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:25 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:26 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:27 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:28 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:29 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:30 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:30 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:30 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:30 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:31 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:55 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mysql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:56 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mysql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:57 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mysql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:06:58 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mysql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:07:25 Africa/Johannesburg] PHP Fatal error:  Call to undefined function Phalcon\Db\Adapter\Pdo\Mssql() in C:\localhost\tutorial\public\index.php on line 27
+[19-Mar-2014 14:07:26 Africa/Johannesburg] PHP Fatal error:  Call to undefined function Phalcon\Db\Adapter\Pdo\Mssql() in C:\localhost\tutorial\public\index.php on line 27
+[19-Mar-2014 14:07:40 Africa/Johannesburg] PHP Fatal error:  Call to undefined function Phalcon\Db\Adapter\Pdo\Mysql() in C:\localhost\tutorial\public\index.php on line 27
+[19-Mar-2014 14:07:40 Africa/Johannesburg] PHP Fatal error:  Call to undefined function Phalcon\Db\Adapter\Pdo\Mysql() in C:\localhost\tutorial\public\index.php on line 27
+[19-Mar-2014 14:07:41 Africa/Johannesburg] PHP Fatal error:  Call to undefined function Phalcon\Db\Adapter\Pdo\Mysql() in C:\localhost\tutorial\public\index.php on line 27
+[19-Mar-2014 14:07:42 Africa/Johannesburg] PHP Fatal error:  Call to undefined function Phalcon\Db\Adapter\Pdo\Mysql() in C:\localhost\tutorial\public\index.php on line 27
+[19-Mar-2014 14:07:56 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:07:56 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:08:06 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:08:07 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:08:20 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:08:21 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:08:53 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:08:54 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:22:59 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:23:00 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:24:39 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:24:40 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:24:41 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:24:42 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:24:43 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:24:43 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:24:43 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:24:44 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:25:55 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:25:56 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:25:58 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:25:59 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:26:00 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:26:00 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:26:25 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:26:25 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:26:29 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:26:30 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 26
+[19-Mar-2014 14:28:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:28:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:30:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:30:25 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:30:31 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:30:32 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:30:33 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:30:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:31:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:31:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:31:07 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:31:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:31:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:31:09 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:31:23 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:31:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':host=TYGSQLDEV...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:32:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dblib:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:32:20 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dblib:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:32:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mssql:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:32:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mssql:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:32:53 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('Mssql:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:32:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('Mssql:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:25 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:26 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:51 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:55 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:56 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:33:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:00 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:01 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:31 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:32 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:32 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:33 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:34:55 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:35:01 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:35:01 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:35:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:35:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:35:09 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:38:17 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:38:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=;db...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:38:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:38:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:40:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:40:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=Ser...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=Ser...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:22 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=Ser...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:23 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=Ser...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:35 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('server:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:47 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('server:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:57 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:42:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:43:27 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:43:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:44:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:44:53 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:45:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:46:13 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:46:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:46:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:46:57 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:46:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:47:15 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:47:17 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:47:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:47:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:47:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:47:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:47:52 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:47:53 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:48:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:48:12 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:48:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:48:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:49:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:49:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:49:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:50:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:50:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:50:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:50:40 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:51:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:51:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:51:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:51:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:00 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:07 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:09 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:21 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:23 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:32 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mssql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:52:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mssql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:01 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mssql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mssql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('Mssql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('Mssql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:35 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mysql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:36 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mysql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mysql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:53:40 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mysql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:54:00 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:54:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:54:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:55:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(27): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:57:56 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:57:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:58:01 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:58:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:58:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:58:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:58:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:58:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:58:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:58:10 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(29): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 14:59:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:00:22 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:02:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:02:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:05:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:Server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:05:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:Server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:05:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:Server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:06:17 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:Server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:06:56 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:07:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:07:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dbLib:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:07:48 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dbLib:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:07:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mssql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:07:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('mssql:server=TY...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:08:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:08:52 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(26): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:11:54 Africa/Johannesburg] PHP Fatal error:  Call to a member function registerNamespaces() on a non-object in C:\localhost\tutorial\public\index.php on line 8
+[19-Mar-2014 15:11:56 Africa/Johannesburg] PHP Fatal error:  Call to a member function registerNamespaces() on a non-object in C:\localhost\tutorial\public\index.php on line 8
+[19-Mar-2014 15:12:32 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 13
+[19-Mar-2014 15:12:33 Africa/Johannesburg] PHP Fatal error:  Class 'Twm\Db\Adapter\Pdo\Mssql' not found in C:\localhost\tutorial\public\index.php on line 13
+[19-Mar-2014 15:13:58 Africa/Johannesburg] PHP Fatal error:  Call to a member function registerNamespaces() on a non-object in C:\localhost\tutorial\public\index.php on line 6
+[19-Mar-2014 15:13:59 Africa/Johannesburg] PHP Fatal error:  Call to a member function registerNamespaces() on a non-object in C:\localhost\tutorial\public\index.php on line 6
+[19-Mar-2014 15:14:52 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(34): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:15:03 Africa/Johannesburg] PHP Fatal error:  Call to a member function connect() on a non-object in C:\localhost\tutorial\public\index.php on line 27
+[19-Mar-2014 15:15:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(34): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:15:17 Africa/Johannesburg] PHP Fatal error:  Call to a member function connect() on a non-object in C:\localhost\tutorial\public\index.php on line 27
+[19-Mar-2014 15:15:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:16:05 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:55:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:17 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:17 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:56:40 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:57:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:57:33 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:57:57 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:58:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:58:23 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:58:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:58:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:59:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 15:59:30 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'TYGSQLDEV,1433;database' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:02:36 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:03:00 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:03:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:04:07 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:05:01 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:05:25 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:05:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:06:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:06:51 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dblib:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:06:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dblib:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:06:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dblib:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:07:01 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dblib:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:07:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dblib:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:07:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('dblib:host=TYGS...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:07:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:07:15 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An invalid keyword 'host' was specified in the DSN string.' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:host=TYG...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:07:44 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:Server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:08:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:Server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:08:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:08:57 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:09:09 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [53]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:09:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [53]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:11:15 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [53]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:11:35 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [53]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:11:51 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=1...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:12:09 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=1...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:12:17 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=1...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:12:35 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=1...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:12:45 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=1...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:13:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Connection string is not valid [87]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=1...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:14:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:14:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:18:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:18:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=;databa...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:19:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=\TYGSQL...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:19:27 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=\TYGSQL...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:19:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=\TYGSQL...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:19:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=\TYGSQL...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:20:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:21:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(38): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:22:40 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:22:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:26:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:26:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:27:13 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:27:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:27:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=\;datab...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(42): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:27:52 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=\;datab...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(42): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:28:35 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:28:56 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:29:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=\;datab...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(42): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:29:10 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct(':server=\;datab...', NULL, NULL, Array)
+#1 C:\localhost\tutorial\public\index.php(42): Twm\Db\Adapter\Pdo\Mssql->connect()
+#2 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:29:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:29:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:32:36 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:32:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:36:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:36:32 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=(...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:37:53 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:38:14 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:39:23 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:39:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]TCP Provider: No such host is known.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:40:08 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:40:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [5]. ' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:212
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(212): PDO->__construct('sqlsrv:server=T...', 'test', 'test', Array)
+#1 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(18): Twm\Db\Adapter\Pdo\Mssql->connect(Array)
+#2 C:\localhost\tutorial\public\index.php(40): Twm\Db\Adapter\Pdo\Mssql->__construct(Array)
+#3 {main}
+  thrown in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 212
+[19-Mar-2014 16:50:51 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An error occurred translating string for input param 1 to UCS-2: No mapping for the Unicode character exists in the target multi-byte code page.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:333
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(333): PDOStatement->execute()
+#1 [internal function]: Twm\Db\Adapter\Pdo\Mssql->executePrepared(Object(PDOStatement), Array, Array)
+#2 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(426): Phalcon\Db\Adapter\Pdo->execute('INSERT INTO use...', Array, Array)
+#3 [internal function]: Twm\Db\Adapter\Pdo\Mssql->insert('users', Array, Array, Array)
+#4 [internal function]: Phalcon\Mvc\Model->_doLowInsert(Object(Phalcon\Mvc\Model\MetaData\Memory), Object(Twm\Db\Adapter\Pdo\Mssql), 'users', 'id')
+#5 C:\localhost\tutorial\app\controllers\SignupController.php(23): Phalcon\Mvc\Model->save()
+#6 [internal function]: SignupController->registerAction()
+#7 [internal function]: Pha in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 333
+[20-Mar-2014 14:16:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: An error occurred translating string for input param 1 to UCS-2: No mapping for the Unicode character exists in the target multi-byte code page.
+' in C:\localhost\tutorial\app\library\db\adapter\Mssql.php:333
+Stack trace:
+#0 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(333): PDOStatement->execute()
+#1 [internal function]: Twm\Db\Adapter\Pdo\Mssql->executePrepared(Object(PDOStatement), Array, Array)
+#2 C:\localhost\tutorial\app\library\db\adapter\Mssql.php(426): Phalcon\Db\Adapter\Pdo->execute('INSERT INTO use...', Array, Array)
+#3 [internal function]: Twm\Db\Adapter\Pdo\Mssql->insert('users', Array, Array, Array)
+#4 [internal function]: Phalcon\Mvc\Model->_doLowInsert(Object(Phalcon\Mvc\Model\MetaData\Memory), Object(Twm\Db\Adapter\Pdo\Mssql), 'users', 'id')
+#5 C:\localhost\tutorial\app\controllers\SignupController.php(23): Phalcon\Mvc\Model->save()
+#6 [internal function]: SignupController->registerAction()
+#7 [internal function]: Pha in C:\localhost\tutorial\app\library\db\adapter\Mssql.php on line 333
+[20-Mar-2014 15:00:39 Africa/Johannesburg] PHP Warning:  Phalcon\DI\Injectable::__get(): Access to undefined property showRecords in C:\localhost\tutorial\app\views\index\index.phtml on line 7
+[20-Mar-2014 15:00:40 Africa/Johannesburg] PHP Warning:  Phalcon\DI\Injectable::__get(): Access to undefined property showRecords in C:\localhost\tutorial\app\views\index\index.phtml on line 7
+[20-Mar-2014 15:02:19 Africa/Johannesburg] PHP Fatal error:  Call to a member function getQuery() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:02:21 Africa/Johannesburg] PHP Fatal error:  Call to a member function getQuery() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:02:27 Africa/Johannesburg] PHP Fatal error:  Call to a member function get() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:02:28 Africa/Johannesburg] PHP Fatal error:  Call to a member function get() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:03:28 Africa/Johannesburg] PHP Fatal error:  Call to a member function query() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:03:30 Africa/Johannesburg] PHP Fatal error:  Call to a member function query() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:03:58 Africa/Johannesburg] PHP Fatal error:  Call to a member function query() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:03:59 Africa/Johannesburg] PHP Fatal error:  Call to a member function query() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:05:18 Africa/Johannesburg] PHP Fatal error:  Call to a member function query() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:05:20 Africa/Johannesburg] PHP Fatal error:  Call to a member function query() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:06:16 Africa/Johannesburg] PHP Fatal error:  Call to a member function execute() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:06:17 Africa/Johannesburg] PHP Fatal error:  Call to a member function execute() on a non-object in C:\localhost\tutorial\app\controllers\IndexController.php on line 14
+[20-Mar-2014 15:12:34 Africa/Johannesburg] PHP Fatal error:  Call to undefined method IndexController::getAllUsersAction() in C:\localhost\tutorial\app\views\index\index.phtml on line 7
+[20-Mar-2014 15:12:36 Africa/Johannesburg] PHP Fatal error:  Call to undefined method IndexController::getAllUsersAction() in C:\localhost\tutorial\app\views\index\index.phtml on line 7
+[20-Mar-2014 15:12:50 Africa/Johannesburg] PHP Fatal error:  Call to undefined method IndexController::getAllUsersAction() in C:\localhost\tutorial\app\views\index\index.phtml on line 7
+[20-Mar-2014 15:12:51 Africa/Johannesburg] PHP Fatal error:  Call to undefined method IndexController::getAllUsersAction() in C:\localhost\tutorial\app\views\index\index.phtml on line 7
+[20-Mar-2014 15:22:32 Africa/Johannesburg] PHP Fatal error:  Call to a member function query() on a non-object in C:\localhost\tutorial\app\views\index\index.phtml on line 4
+[20-Mar-2014 15:22:34 Africa/Johannesburg] PHP Fatal error:  Call to a member function query() on a non-object in C:\localhost\tutorial\app\views\index\index.phtml on line 4
+[20-Mar-2014 16:01:55 Africa/Johannesburg] PHP Catchable fatal error:  Object of class Phalcon\Mvc\Model\Resultset\Simple could not be converted to string in C:\localhost\tutorial\app\controllers\UserController.php on line 24
+[20-Mar-2014 16:06:17 Africa/Johannesburg] PHP Catchable fatal error:  Object of class Phalcon\Mvc\Model\Resultset\Simple could not be converted to string in C:\localhost\tutorial\app\controllers\UserController.php on line 22
+[20-Mar-2014 16:12:36 Africa/Johannesburg] PHP Fatal error:  Class 'Tag' not found in C:\localhost\tutorial\app\views\user\edit.phtml on line 6
+[20-Mar-2014 16:18:07 Africa/Johannesburg] PHP Fatal error:  Call to undefined method UserController::view() in C:\localhost\tutorial\app\controllers\UserController.php on line 13
+[20-Mar-2014 16:31:14 Africa/Johannesburg] PHP Warning:  Missing argument 1 for UserController::editAction() in C:\localhost\tutorial\app\controllers\UserController.php on line 11
+[20-Mar-2014 16:54:39 Africa/Johannesburg] PHP Fatal error:  Call to a member function fetchOne() on a non-object in C:\localhost\tutorial\app\controllers\UserController.php on line 14
+[20-Mar-2014 16:55:03 Africa/Johannesburg] PHP Fatal error:  Cannot instantiate abstract class Phalcon\Db in C:\localhost\tutorial\app\controllers\UserController.php on line 14
+[20-Mar-2014 16:55:15 Africa/Johannesburg] PHP Fatal error:  Call to a member function fetchOne() on a non-object in C:\localhost\tutorial\app\controllers\UserController.php on line 14
+[20-Mar-2014 16:56:09 Africa/Johannesburg] PHP Warning:  Phalcon\DI\Injectable::__get(): Access to undefined property  in C:\localhost\tutorial\app\controllers\UserController.php on line 14
+[20-Mar-2014 16:56:09 Africa/Johannesburg] PHP Fatal error:  Call to a member function fetchOne() on a non-object in C:\localhost\tutorial\app\controllers\UserController.php on line 14
+[20-Mar-2014 17:41:17 Africa/Johannesburg] PHP Fatal error:  Class 'Tag' not found in C:\localhost\tutorial\app\controllers\UserController.php on line 36
+[20-Mar-2014 17:44:44 Africa/Johannesburg] PHP Fatal error:  Call to a member function delete() on a non-object in C:\localhost\tutorial\app\controllers\UserController.php on line 30
+[20-Mar-2014 18:03:31 Africa/Johannesburg] PHP Warning:  Creating default object from empty value in C:\localhost\tutorial\app\controllers\UserController.php on line 50
+[20-Mar-2014 18:03:31 Africa/Johannesburg] PHP Fatal error:  Call to undefined method stdClass::save() in C:\localhost\tutorial\app\controllers\UserController.php on line 54
+[20-Mar-2014 18:11:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'Wrong number of parameters' in C:\localhost\tutorial\app\views\user\edit.phtml:15
+Stack trace:
+#0 C:\localhost\tutorial\app\views\user\edit.phtml(15): Phalcon\Tag::textField('id', Array)
+#1 [internal function]: Phalcon\Mvc\View\Engine\Php->render('../app/views/us...', Array, true)
+#2 [internal function]: Phalcon\Mvc\View->_engineRender(Array, 'user/edit', true, true, NULL)
+#3 [internal function]: Phalcon\Mvc\View->render('user', 'edit', Array)
+#4 C:\localhost\tutorial\public\index.php(99): Phalcon\Mvc\Application->handle()
+#5 {main}
+  thrown in C:\localhost\tutorial\app\views\user\edit.phtml on line 15
+[20-Mar-2014 18:12:41 Africa/Johannesburg] PHP Warning:  Creating default object from empty value in C:\localhost\tutorial\app\controllers\UserController.php on line 50
+[20-Mar-2014 18:12:42 Africa/Johannesburg] PHP Fatal error:  Call to a member function save() on a non-object in C:\localhost\tutorial\app\controllers\UserController.php on line 61
+[20-Mar-2014 18:13:03 Africa/Johannesburg] PHP Warning:  Creating default object from empty value in C:\localhost\tutorial\app\controllers\UserController.php on line 50
+[20-Mar-2014 18:13:05 Africa/Johannesburg] PHP Fatal error:  Call to a member function save() on a non-object in C:\localhost\tutorial\app\controllers\UserController.php on line 61
+[20-Mar-2014 18:13:48 Africa/Johannesburg] PHP Warning:  Creating default object from empty value in C:\localhost\tutorial\app\controllers\UserController.php on line 51
