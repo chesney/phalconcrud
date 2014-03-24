@@ -1889,3 +1889,75 @@ Stack trace:
 [20-Mar-2014 18:13:03 Africa/Johannesburg] PHP Warning:  Creating default object from empty value in C:\localhost\tutorial\app\controllers\UserController.php on line 50
 [20-Mar-2014 18:13:05 Africa/Johannesburg] PHP Fatal error:  Call to a member function save() on a non-object in C:\localhost\tutorial\app\controllers\UserController.php on line 61
 [20-Mar-2014 18:13:48 Africa/Johannesburg] PHP Warning:  Creating default object from empty value in C:\localhost\tutorial\app\controllers\UserController.php on line 51
+[24-Mar-2014 13:46:37 Africa/Johannesburg] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in C:\localhost\tutorial\public\index.php on line 2
+[24-Mar-2014 13:46:37 Africa/Johannesburg] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.;C:\php\pear') in C:\localhost\tutorial\public\index.php on line 2
+[24-Mar-2014 13:46:41 Africa/Johannesburg] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in C:\localhost\tutorial\public\index.php on line 2
+[24-Mar-2014 13:46:41 Africa/Johannesburg] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.;C:\php\pear') in C:\localhost\tutorial\public\index.php on line 2
+[24-Mar-2014 14:00:44 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:00:51 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:08:04 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:08:13 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:14:16 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:14:27 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:15:30 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:15:37 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:18:03 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:18:10 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:23:52 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:24:01 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:25:12 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:25:27 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:27:21 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:27:28 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:27:32 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:27:37 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:31:52 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 13
+[24-Mar-2014 14:31:58 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 13
+[24-Mar-2014 14:32:20 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 12
+[24-Mar-2014 14:32:27 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 12
+[24-Mar-2014 14:32:53 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 12
+[24-Mar-2014 14:33:00 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 12
+[24-Mar-2014 14:36:37 Africa/Johannesburg] PHP Warning:  require(composer.phar): failed to open stream: No such file or directory in C:\localhost\tutorial\app\controllers\IndexController.php on line 2
+[24-Mar-2014 14:36:38 Africa/Johannesburg] PHP Fatal error:  require(): Failed opening required 'composer.phar' (include_path='.;C:\php\pear') in C:\localhost\tutorial\app\controllers\IndexController.php on line 2
+[24-Mar-2014 14:36:42 Africa/Johannesburg] PHP Warning:  require(composer.phar): failed to open stream: No such file or directory in C:\localhost\tutorial\app\controllers\IndexController.php on line 2
+[24-Mar-2014 14:36:42 Africa/Johannesburg] PHP Fatal error:  require(): Failed opening required 'composer.phar' (include_path='.;C:\php\pear') in C:\localhost\tutorial\app\controllers\IndexController.php on line 2
+[24-Mar-2014 14:37:02 Africa/Johannesburg] PHP Warning:  require(composer.phar): failed to open stream: No such file or directory in C:\localhost\tutorial\public\index.php on line 2
+[24-Mar-2014 14:37:02 Africa/Johannesburg] PHP Fatal error:  require(): Failed opening required 'composer.phar' (include_path='.;C:\php\pear') in C:\localhost\tutorial\public\index.php on line 2
+[24-Mar-2014 14:37:07 Africa/Johannesburg] PHP Warning:  require(composer.phar): failed to open stream: No such file or directory in C:\localhost\tutorial\public\index.php on line 2
+[24-Mar-2014 14:37:07 Africa/Johannesburg] PHP Fatal error:  require(): Failed opening required 'composer.phar' (include_path='.;C:\php\pear') in C:\localhost\tutorial\public\index.php on line 2
+[24-Mar-2014 14:37:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined index: argv' in phar://C:/localhost/tutorial/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php:57
+Stack trace:
+#0 phar://C:/localhost/tutorial/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php(57): Composer\Util\ErrorHandler::handle(8, 'Undefined index...', 'phar://C:/local...', 57, Array)
+#1 phar://C:/localhost/tutorial/composer.phar/vendor/symfony/console/Symfony/Component/Console/Application.php(111): Symfony\Component\Console\Input\ArgvInput->__construct()
+#2 phar://C:/localhost/tutorial/composer.phar/src/Composer/Console/Application.php(83): Symfony\Component\Console\Application->run(NULL, Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 phar://C:/localhost/tutorial/composer.phar/bin/composer(43): Composer\Console\Application->run()
+#4 C:\localhost\tutorial\composer.phar(15): require('phar://C:/local...')
+#5 C:\localhost\tutorial\public\index.php(2): require('C:\localhos in phar://C:/localhost/tutorial/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php on line 57
+[24-Mar-2014 14:37:33 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined index: argv' in phar://C:/localhost/tutorial/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php:57
+Stack trace:
+#0 phar://C:/localhost/tutorial/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php(57): Composer\Util\ErrorHandler::handle(8, 'Undefined index...', 'phar://C:/local...', 57, Array)
+#1 phar://C:/localhost/tutorial/composer.phar/vendor/symfony/console/Symfony/Component/Console/Application.php(111): Symfony\Component\Console\Input\ArgvInput->__construct()
+#2 phar://C:/localhost/tutorial/composer.phar/src/Composer/Console/Application.php(83): Symfony\Component\Console\Application->run(NULL, Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 phar://C:/localhost/tutorial/composer.phar/bin/composer(43): Composer\Console\Application->run()
+#4 C:\localhost\tutorial\composer.phar(15): require('phar://C:/local...')
+#5 C:\localhost\tutorial\public\index.php(2): require('C:\localhos in phar://C:/localhost/tutorial/composer.phar/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php on line 57
+[24-Mar-2014 14:37:52 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 12
+[24-Mar-2014 14:38:03 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 12
+[24-Mar-2014 14:41:16 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 12
+[24-Mar-2014 14:41:32 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 12
+[24-Mar-2014 14:41:59 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:42:16 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:42:44 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:43:08 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:43:21 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:43:39 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:43:58 Africa/Johannesburg] PHP Fatal error:  Class 'GuzzleHttp\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:44:27 Africa/Johannesburg] PHP Fatal error:  Class 'GuzzleHttp\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:44:31 Africa/Johannesburg] PHP Fatal error:  Class 'GuzzleHttp\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:44:52 Africa/Johannesburg] PHP Fatal error:  Class 'GuzzleHttp\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:45:31 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 14:45:40 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 16:46:37 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 16:46:48 Africa/Johannesburg] PHP Fatal error:  Class 'Guzzle\Http\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 16:54:32 Africa/Johannesburg] PHP Fatal error:  Class 'GuzzleHttp\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10
+[24-Mar-2014 16:54:50 Africa/Johannesburg] PHP Fatal error:  Class 'GuzzleHttp\Client' not found in C:\localhost\tutorial\app\controllers\IndexController.php on line 10

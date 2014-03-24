@@ -3,7 +3,7 @@
 try {
     
     //Register an autoloader
-    $loader = new \Phalcon\Loader();
+    $loader = new \Phalcon\Loader();       
         
     //Register some namespaces
     $loader->registerNamespaces(

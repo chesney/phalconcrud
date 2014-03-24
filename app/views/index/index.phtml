@@ -22,6 +22,10 @@ echo "<h1>Viewing all users</h1>";
 		</tr>
 	<?php } ?>
 	</table>
+        <?php foreach($tweets as $tweet){
+          echo $tweet;
+        }
+        ?>
 </p>
 <?php
 echo Phalcon\Tag::linkTo("signup", "Sign Up Here!");
