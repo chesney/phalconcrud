@@ -8,6 +8,8 @@ This is a very simple tutorial to understand the basis of work with Phalcon.
 
 Check out a explanation article: http://phalconphp.com/documentation/tutorial
 
+This Phalcon PHP application has been configured to run on IIS 7 and on a MSSQL Database.
+
 Get Started
 -----------
 
