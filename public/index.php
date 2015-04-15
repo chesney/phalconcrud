@@ -27,9 +27,9 @@ try {
     $di = new Phalcon\DI\FactoryDefault();
     
       /*$local = array(		
-                'host'          => 'TYGSQLDEV\TYGSQLDEV',
+                'host'          => 'YOUR_MSSQL_SERVERNAME\YOUR_MSSQL_SERVER_INSTANCE_NAME',
                 'port'          => 1433,
-                'instance'      => 'TYGSQLDEV',
+                'instance'      => 'YOUR_MSSQL_SERVER_INSTANCE_NAME',
 		'username'	=> 'test',
 		'password'	=> 'test',
 		'dbname'	=> 'test',                
@@ -42,9 +42,9 @@ try {
         
     $di->set('db', function(){
         return new \Twm\Db\Adapter\Pdo\Mssql(array(
-                'host'          => 'TYGSQLDEV\TYGSQLDEV',
+                'host'          => 'YOUR_MSSQL_SERVERNAME\YOUR_MSSQL_SERVER_INSTANCE_NAME',
                 'port'          => 1433,
-                'instance'      => 'TYGSQLDEV',
+                'instance'      => 'YOUR_MSSQL_SERVER_INSTANCE_NAME',
 		'username'	=> 'test',
 		'password'	=> 'test',
 		'dbname'	=> 'test',                
@@ -60,35 +60,6 @@ try {
 //        $db = $di->get("db");  //you should register "db" first
 //    
         
-    
-    
-           
-   /* if (!$db->connect()){
-	$db->close();
-	die('connection failed');
-    }*/
-
-    //Set the database service
-    /*
-    $di->set('db', function(){
-        return new \Phalcon\Db\Adapter\Pdo\Mssql(array(
-            "host" => "TYGSQLDEV\TYGSQLDEV",
-            "username" => "test",
-            "password" => "test",
-            "dbname" => "test"
-        ));
-    });*/
-
-   /* $di->set('db', function(){
-        return new \Phalcon\Db\Adapter\Pdo\Mssql(array(
-            "host" => "TYGSQLDEV\TYGSQLDEV",
-            "username" => "test",
-            "password" => "test",
-            "dbname" => "test",
-            "dialectClass" => "\Twm\Db\Dialect\Mssql"
-        ));
-    });*/
-                    
     //Setting up the view component
     $di->set('view', function(){
         $view = new \Phalcon\Mvc\View();
